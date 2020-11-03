@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JxThemeManager_Tests' do
+  pod 'JxThemeManager', :path => '../'
+  
+  
+end
