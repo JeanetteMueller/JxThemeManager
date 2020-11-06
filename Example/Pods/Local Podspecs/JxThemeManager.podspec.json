@@ -1,0 +1,22 @@
+{
+  "name": "JxThemeManager",
+  "version": "0.1.0",
+  "summary": "A short description of JxThemeManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JeanetteMueller/JxThemeManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JeanetteMueller": "themaverick@themaverick.de"
+  },
+  "source": {
+    "git": "https://github.com/JeanetteMueller/JxThemeManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JxThemeManager/Classes/**/*"
+}

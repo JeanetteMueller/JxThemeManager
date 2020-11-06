@@ -1,0 +1,16 @@
+PODS:
+  - JxThemeManager (0.1.0)
+
+DEPENDENCIES:
+  - JxThemeManager (from `../`)
+
+EXTERNAL SOURCES:
+  JxThemeManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JxThemeManager: 93d0e8dc0a268ec96ef02d0ed6574d1b095c0486
+
+PODFILE CHECKSUM: 725a36b6529f93540691cf4501951ec804446c9c
+
+COCOAPODS: 1.9.3
