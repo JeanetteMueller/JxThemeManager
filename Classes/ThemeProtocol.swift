@@ -32,6 +32,8 @@ public protocol ThemeProtocol {
     var fontSizeContentMedium: CGFloat  {get}
     var fontSizeContentSmall: CGFloat  {get}
     
+    func getFont(name:String, size:CGFloat) -> UIFont?
+    
     // MARK: - Colors
     var backgroundColor: UIColor  {get}
     var contentBackgroundColor: UIColor {get}
@@ -67,6 +69,7 @@ public protocol ThemeProtocol {
     var cornerRadiusPercent: CGFloat  {get}
     var contentInsetFromDisplayBorder: CGFloat  {get}
     
+    var tableViewCellDefaultHeight: CGFloat  {get}
     var tableViewHeadlineHeight: CGFloat  {get}
     
     var minimalBorderWidth: CGFloat  {get}
