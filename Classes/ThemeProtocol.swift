@@ -33,6 +33,7 @@ public protocol ThemeProtocol {
     var fontSizeContentSmall: CGFloat  {get}
     
     func getFont(name:String, size:CGFloat) -> UIFont?
+    func getFont(name:String, size:CGFloat, useFontMetric: Bool) -> UIFont?
     
     // MARK: - Colors
     var backgroundColor: UIColor  {get}
